@@ -4,7 +4,7 @@
 
 1. `rm -rf .gradle/configuration-cache/*`
 2. `./gradlew clean`
-3. `./gradlew assDebg`
+3. `./gradlew assDebug`
 4. `./gradlew assDebug`
 
 On the second build you will see: `Calculating task graph as configuration cache cannot be reused because an input to plugin 'com.android.internal.library' has changed.`
